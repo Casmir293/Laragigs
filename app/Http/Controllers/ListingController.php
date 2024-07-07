@@ -8,7 +8,7 @@ use Illuminate\Validation\Rule;
 
 class ListingController extends Controller
 {
-    // Show all listings
+    // Show All Listings
     public function index()
     {
         return view(
@@ -19,7 +19,7 @@ class ListingController extends Controller
         );
     }
 
-    // Show all listing
+    // Show Single Listing
     public function show(Listing $listing)
     {
         return view(
